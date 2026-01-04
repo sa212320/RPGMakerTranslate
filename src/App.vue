@@ -60,7 +60,7 @@ const stepStates = ref([]); // 每個任務步驟的進度與 log
 
 const {t: $t, locale} = useI18n();
 
-const selectedTasks = ref('direct');
+const selectedTasks = ref('select_json');
 const gameDirPath = ref(''); // 資料夾路徑
 const jsonFile = ref(null); // File for json
 const jsonFileName = ref('');
